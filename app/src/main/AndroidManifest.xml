@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.homehandy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeHandy">
+        <activity
+            android:name=".user.EditProfileActivity"
+            android:exported="false"
+            android:label="@string/edit_profile" />
+        <activity
+            android:name=".user.ServiceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HomeHandy.noActionBar" />
+        <activity
+            android:name=".user.HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HomeHandy.noActionBar" />
+        <activity
+            android:name=".admin.AddServiceActivity"
+            android:exported="false"
+            android:label="@string/service_details" />
+        <activity
+            android:name=".admin.AllServicesActivity"
+            android:exported="false"
+            android:label="@string/all_services" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HomeHandy.noActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HomeHandy.noActionBar" />
+        <activity
+            android:name=".admin.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HomeHandy.noActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.HomeHandy.noActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

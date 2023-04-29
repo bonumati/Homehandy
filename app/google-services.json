@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "645683857472",
+    "firebase_url": "https://homehandy-4fd8f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "homehandy-4fd8f",
+    "storage_bucket": "homehandy-4fd8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645683857472:android:cb51b69ae86aee313537a5",
+        "android_client_info": {
+          "package_name": "com.project.homehandy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645683857472-3m5b6fvs9mm0s1m52kmsma062u9tmpi2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.homehandy",
+            "certificate_hash": "a8ab16e8f291d0c1731c984fb0c78472a7c99064"
+          }
+        },
+        {
+          "client_id": "645683857472-fa683tamdehi6i3f9jebpcd3f3eiq4dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOzqzy0Br00q9D93UQM2iFHqpV-XmvKwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645683857472-fa683tamdehi6i3f9jebpcd3f3eiq4dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
